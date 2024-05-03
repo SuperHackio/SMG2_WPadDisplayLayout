@@ -1,5 +1,18 @@
 {
-  "Name": "My Syati Module",
-  "Author": "YourNameHere",
-  "Description": "My Syati Module is awesome!"
+  "Name": "SMG2 WPad input display layout",
+  "Author": "Super Hackio, SY24",
+  "Description": "A Layout that shows what inputs are being recieved by the game.",
+
+  "ModuleData": [
+    {
+      "GlobalLayout": [
+        {
+          "Name": "WPadDisplayLayout",
+          "DiscPath": "/LayoutData/ButtonLayout.arc",
+          "Function": "createExtLayout<WPadDisplayLayout>",
+          "Include": "WPadDisplayLayout.h"
+        }
+      ]
+    }
+  ]
 }
